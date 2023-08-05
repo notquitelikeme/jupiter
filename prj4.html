@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <section class="row">
+            <div class="col-md-12 btn-success p-1">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="#" class="navbar-brand text-white"><img src="images/lion.jpeg" alt="logo" height="150">
+                        <h1 class="text-white">JUPITER</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler text-black" data-bs-toggle="collapse"
+                        data-bs-target="#navbarcollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <div class="navabr nav">
+                            <a href="index.html" class="nav-link nav-items text-white">
+                                <h3>Home</h3>
+                            </a>
+                            <a href="prj4.html" class="nav-link nav-items text-white">
+                                <h3>Log In</h3>
+                            </a>
+                            <a href="prj5.html" class="nav-link nav-items text-white">
+                                <h3>Our Products</h3>
+                            </a>
+                            <a href="prj2.html" class="nav-link nav-items text-white">
+                                <h3>About Us</h3>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <br>
+        <section>
+            <center><div class="col-md-8">
+            <form action="">
+                <div class="container-fluid">
+                    <div class="col-md-12 bg-success p-5 text-white">
+                        <h2>Log In</h2>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label class="form-label" for="formUsername">Username</label>
+                        <input type="username" class="form-control" name="" id="inputUsername"
+                            placeholder="Enter your Username">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label class="form-label" for="formPassword">Password</label>
+                        <input type="password" class="form-control" name="" id="inputPassword"
+                            placeholder="Enter your Password">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div class="form-check text-start">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label" id="checkRemember" for="checkboxRemember">Remember
+                                me</label>
+                        </div>
+                    </div>
+                    <br>
+                    <button id="button" type="button" data-bs-toggle="modal" data-bs-target="#myModal"
+                        class="btn btn-success">Log In</button>
+                </div>
+            </form>
+            </div></center>
+            <br>
+            <div>
+                <p>If you do not have an account you can sign up <a class="text-success" href="prj3.html">here</a></p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="modal fade" id="myModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Save Passwords</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>You are about to log in. Do you want to continue?</p>
+                            <p class="text-success"><small>If you click 'log in' your details will be saved and you'll be
+                                    automatically logged in the next time you visit this site.</small></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-success">Log In</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <footer>
+            <div class="col-md-12 bg-success text-center p-5">
+                <b class="text-white">Developed by JUPITER</b><hr class="text-white"> <br><i class="text-white">All rights Reserved.
+                    No part of this publication may be reproduced, stored in a retrieval
+                    system or transmitted in any form or by any means, electronic,
+                    mechanical, photocopying, recording or otherwise, without
+                    prior permission of JUPITER AUTOMOBILES.</i><br>
+                <u class="text-white">Customer Care +254781312802</u>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
